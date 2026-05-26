@@ -1,10 +1,10 @@
 ---
 name: ug-thesis-writing
 description: >
-  辅助中国高校本科生完成毕业论文全流程写作。
+  辅助中国高校理工科本科生完成毕业论文（设计）全流程写作。
   覆盖：项目初始化 → 文献综述 → 章节写作 → 图表管理 → 格式修正 → AIGC 降重 → 导师批注修改 → 答辩准备 → 终稿提交。
-  适用于 Word (.docx) 格式论文。
-  Use when 用户提到写论文、毕业论文、毕设、本科论文、论文修改、格式修正、答辩准备、论文降重、AIGC 降重等。
+  适用于 Word (.docx) 格式论文，特别适合需要做实验、跑模型、画图表的理工科毕业论文（设计）。
+  Use when 用户提到写论文、毕业论文、毕业设计、本科论文、论文修改、格式修正、答辩准备、论文降重、AIGC 降重等。
 argument-hint: "[action] [file]"
 ---
 
@@ -283,6 +283,6 @@ python ~/.claude/skills/ug-thesis-writing/scripts/apply_format_fixes.py <docx_pa
 
 ## 案例参考 (Case Study)
 
-本 skill 基于真实本科毕设项目经验提炼，涵盖完整的从零到终稿提交过程。
+本 skill 基于真实理工科本科毕业论文（设计）项目经验提炼，涵盖完整的从零到终稿提交过程。
 - 工具链: python-docx + Word COM + Zotero + python-pptx
 - 详细记录: [references/case-study.md](references/case-study.md)
